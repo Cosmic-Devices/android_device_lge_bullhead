@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "LineageOS/android_kernel_lge_bullhead",
+    "target_path": "kernel/lge/bullhead",
+    "branch": "lineage-15.1",
+    "remote": "github"
+  },
+  {
+    "repository": "Cosmic-devices/android_vendor_lge_bullhead",
+    "target_path": "vendor/lge/bullhead",
+    "branch": "o-mr1",
+    "remote": "github"
+  }
+]
