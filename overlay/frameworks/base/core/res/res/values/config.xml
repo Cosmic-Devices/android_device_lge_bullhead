@@ -189,6 +189,9 @@
     <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
     <bool name="config_dozePulsePickup">true</bool>
 
+    <!-- Whether the device requires overlays to be in /system/overlay -->
+    <bool name="config_hasSystemOverlayPath">true</bool>
+
     <!-- Specifies whether to decouple the interactive state of the device from the display on/off state. -->
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
