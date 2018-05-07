@@ -325,6 +325,13 @@ PRODUCT_PACKAGES += \
     libvts_multidevice_proto
 endif
 
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 PRODUCT_PACKAGES += \
     keystore.msm8992 \
     gatekeeper.msm8992
